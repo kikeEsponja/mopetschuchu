@@ -8,19 +8,28 @@ body{
     background-color: #454545;
     color: #fff;
 }
+button{
+    height: 35px;
+    width: 120px;
+    font-family: 'Austie Bost Kitten Klub', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: #000000 0 0 10px;
+    background: #32b1329a;
+}
 .logo{
     text-align: center;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 10%;
+    height: 10%;
     border: 1px solid #fff;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
 }
 .contenedor{
     display: flex;
@@ -30,14 +39,28 @@ body{
     flex-wrap: wrap;
 }
 .contenedor__item{
-    background-color: #fff;
-    padding: 20px;
+    position: relative;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    width: 300px;
+    width: 200px;
     margin: 10px;
-    height: 300px;
+    height: 200px;
     transition: 0.3s ease transform;
+    cursor: pointer;
+    z-index: 1;
+    border: 5px solid #FFAA00;
+}
+.contenedor__item:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 10px;
+    background: linear-gradient(#a1a098, #161615);
+    z-index: -1;
 }
 .contenedor__item:hover{
     background-color: #f2f2f2;
@@ -48,7 +71,17 @@ body{
 aside{
     position: fixed;
     top: 10px;
-    color: #ff0;
+    width: 100%;
+    right: 40%;
+    background: linear-gradient(#FFD700, #FFAA00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+i{
+    font-size: 30px;
+    cursor: pointer;
+    margin: 2%;
+    transition: 0.3s ease color;
 }
 footer{
     position: relative;
