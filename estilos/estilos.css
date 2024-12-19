@@ -88,3 +88,13 @@ footer{
     bottom: 10px;
     color: #fff;
 }
+@media(max-width: 400px){
+    aside{
+        display: flex;
+        flex-direction: column;
+        top: 225px;
+    }
+    .logo{
+        width: 30%;
+    }
+}
