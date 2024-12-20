@@ -11,6 +11,44 @@ if(plataforma){
 }
 
 let volver = document.getElementById('volver');
-volver.addEventListener('click', () => {
-    window.history.back();
-});
+if(volver){
+    volver.addEventListener('click', () => {
+        window.history.back();
+    });
+}
+
+        // Variables globales
+        const openModalBtns = document.querySelectorAll('.desc'); // Todos los botones de descripción
+        const closeModalBtn = document.getElementById('closeModal'); // Botón para cerrar el modal
+        const modal = document.getElementById('modal'); // Modal
+        const overlay = document.getElementById('overlay'); // Fondo oscuro
+        const modalTitle = document.getElementById('modalTitle'); // Título dinámico
+        const modalDescription = document.getElementById('modalDescription'); // Descripción dinámica
+
+        // Abrir el modal y cambiar su contenido dinámicamente
+        openModalBtns.forEach(button => {
+            button.addEventListener('click', () => {
+                const productTitle = button.getAttribute('data-title'); // Toma el título del producto
+                const productDescription = button.getAttribute('data-description'); // Toma la descripción del producto
+                
+                // Cambia el contenido del modal
+                modalTitle.textContent = productTitle;
+                modalDescription.textContent = productDescription;
+
+                // Muestra el modal y la superposición
+                modal.classList.add('open');
+                overlay.classList.add('open');
+            });
+        });
+
+        // Cerrar el modal
+        closeModalBtn.addEventListener('click', () => {
+            modal.classList.remove('open');
+            overlay.classList.remove('open');
+        });
+
+        // Cerrar modal si se hace clic en la superposición
+        overlay.addEventListener('click', () => {
+            modal.classList.remove('open');
+            overlay.classList.remove('open');
+        });
