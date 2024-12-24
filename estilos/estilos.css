@@ -101,6 +101,7 @@ aside{
     right: 40%;
     background: linear-gradient(#FFD700, #FFAA00);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 10;
 }
@@ -169,6 +170,11 @@ footer{
     border-radius: 5px;
     cursor: pointer;
     float: right;
+}
+@media(max-width: 500px){
+    .contenedor__item{
+        flex-direction: column;
+    }
 }
 @media(max-width: 400px){
     aside{
