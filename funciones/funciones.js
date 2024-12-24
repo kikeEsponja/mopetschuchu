@@ -52,3 +52,24 @@ if(volver){
             modal.classList.remove('open');
             overlay.classList.remove('open');
         });
+
+        // ubicar modal
+        document.querySelectorAll(".desc").forEach((button) => {
+            button.addEventListener("click", (event) => {
+                const modal = document.querySelector(".modal");
+                
+                // Mostrar el modal
+                modal.style.display = "block";
+        
+                // Asegurarte de que el modal esté visible
+                modal.scrollIntoView({ behavior: "smooth", block: "center" });
+            });
+        });
+        
+        // Cerrar el modal al hacer clic fuera de él o en un botón cerrar
+        document.querySelector(".modal").addEventListener("click", (event) => {
+            if (event.target.classList.contains("close")) {
+                event.currentTarget.style.display = "none";
+            }
+        });
+        
