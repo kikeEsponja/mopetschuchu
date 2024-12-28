@@ -7,9 +7,10 @@ body{
     font-family: 'Roboto', sans-serif;
     /*background-color: #454545;*/
     color: #fff;
-    background: url('../recursos/imagen/fondo2.webp') no-repeat center center fixed;
-    backdrop-filter: grayscale(100%) brightness(30%);
-    background-size: cover;
+    /*background: url('../recursos/imagen/fondo2.webp') no-repeat center center fixed;*/
+    /*backdrop-filter: grayscale(100%) brightness(30%);*/
+    /*background-size: cover;*/
+    background: #000000;
     height: 100%;
 }
 button{
@@ -25,12 +26,17 @@ button{
 p{
     font-size: 12px;
 }
+hr{
+    display: none;
+    border: 1px solid #FFAA00;
+    width: 60%;
+}
 .logo{
     margin: 2%;
     text-align: center;
     border-radius: 50%;
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 15%;
     border: 1px solid #fff;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -46,7 +52,7 @@ p{
     transition: 0.3s ease transform;
 }
 .contenedor{
-    border:#FFAA00 2px solid;
+    /*border:#FFAA00 2px solid;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,14 +64,14 @@ p{
     position: relative;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    width: 100%;
+    box-shadow: 0 0 10px rgba(252, 216, 11, 0.5);
+    width: 60%;
     margin: 1%;
     height: auto;
     /*transition: 0.3s ease transform;*/
     cursor: pointer;
     z-index: 1;
-    border: 5px solid #FFAA00;
+    /*border: 0.5px solid #FFAA00;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
