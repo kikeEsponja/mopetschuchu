@@ -72,4 +72,3 @@ if(volver){
                 event.currentTarget.style.display = "none";
             }
         });
-        

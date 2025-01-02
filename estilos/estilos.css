@@ -13,6 +13,7 @@ body{
     background-size: cover;
     background: #000000;
     height: 100%;
+    position: relative;
 }
 button{
     height: 35px;
@@ -202,6 +203,9 @@ footer{
     border-radius: 5px;
     cursor: pointer;
     float: right;
+}
+.ir_a_formulario{
+    width: 50%;
 }
 @media(max-width: 810px){
     .imagen2{
