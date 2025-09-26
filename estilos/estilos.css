@@ -207,6 +207,10 @@ footer{
 .ir_a_formulario{
     width: 50%;
 }
+footer > div{
+    display: flex;
+    flex-direction: column;
+}
 @media(max-width: 810px){
     .imagen2{
         display: none;
