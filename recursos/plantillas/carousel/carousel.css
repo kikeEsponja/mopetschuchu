@@ -8,7 +8,6 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -26,7 +25,6 @@ body {
 .carousel-item {
   height: 32rem;
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -58,7 +56,17 @@ body {
 }
 
 /* rtl:end:remove */
-
+/* CUSTOM CSS
+-------------------------------------------------- */
+.logo{
+  width: 20%;
+  border-radius: 50%;
+}
+.navbar-brand > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
