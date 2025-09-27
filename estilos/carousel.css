@@ -7,6 +7,9 @@ body {
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
 }
+main{
+  margin-top: 50px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -23,7 +26,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 34rem;
 }
 
 /* MARKETING CONTENT

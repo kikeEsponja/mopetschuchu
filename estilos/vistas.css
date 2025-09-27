@@ -21,13 +21,15 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 .container > div{
   text-align: center;
   margin: 1%;
   border: 2px solid black;
   border-radius: 5px;
+  width: 250px;
+  height: auto;
 }
 .container-item > div > img{
   margin: 1%;
