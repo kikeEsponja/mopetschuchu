@@ -68,6 +68,9 @@ section div:hover{
     width: 100%;
   }
   section div:hover{
-    width: 400px;
+    width: 600px;
+  }
+  .calculadora{
+    width: 75%;
   }
 }
