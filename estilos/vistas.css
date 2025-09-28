@@ -63,8 +63,11 @@ section div:hover{
     filter: contrast(120%);
 }
 /* RESPONSIVE */
-@media(max-width: 400px){
+@media(max-width: 500px){
   section{
     width: 100%;
+  }
+  section div:hover{
+    width: 400px;
   }
 }
