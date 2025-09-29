@@ -104,7 +104,7 @@ imagenSegunda.addEventListener('mouseover', () => {
     imagenSegunda.scrollIntoView({ behavior: 'smooth', block: 'center' });
     imagenSegunda.classList.add('brinca');
     setTimeout(() =>{
-        imagenTercera.classList.remove('brinca');
+        imagenSegunda.classList.remove('brinca');
     }, 800);
 });
 
