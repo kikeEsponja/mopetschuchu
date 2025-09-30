@@ -1,23 +1,23 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 	<head>
-    	<script src="../assets/js/color-modes.js"></script>
+    	<script src="../../assets/js/color-modes.js"></script>
 
 	    <meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<meta name="description" content="Fabricación y venta de artículos para mascotas">
     	<meta name="author" content="MoppetsCuritiba y KikeEsponja">
-		<link rel="shortcut icon" href="./imagen/shortcut.png" type="image/x-icon">
+		<link rel="shortcut icon" href="../../imagen/shortcut.png" type="image/x-icon">
 
     	<title>MopetsCuritiba</title>
 
 	    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-		<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
     	<!-- Custom styles for this template -->
-    	<link href="./estilos/carousel.css" rel="stylesheet">
+    	<link href="../../estilos/carousel.css" rel="stylesheet">
 		<style>
 			.banderas{
 				display: flex;
@@ -30,18 +30,17 @@
     		  border-radius: 50%;
     		}
     		.eng{
-    		  background: url('./imagen/banderas/us.svg');
+    		  background: url('../../imagen/banderas/us.svg');
     		  background-size: cover;
     		}
     		.esp{
-    		  background: url('./imagen/banderas/es.svg');
+    		  background: url('../../imagen/banderas/es.svg');
 			  background-size: cover;
     		}
 			.por{
-    		  background: url('./imagen/banderas/br.svg');
+    		  background: url('../../imagen/banderas/br.svg');
 			  background-size: cover;
-    		}
-			@media (max-width: 1000px) {
+    		}@media (max-width: 1000px) {
 			  	.banderas{
 					width: 30%;
 				}
@@ -78,19 +77,19 @@
     	<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
 			<!--<a class="btn" rel="noopener" title="wsp" target="_blank" href="https://wa.me/+554197153863?text=Hola,%20estoy%20interesado%20en%20contactarte por un producto de moppets-curitiba."><i class="bi bi-whatsapp"></i></a>-->
 			<button class="btn btn py-2 d-flex align-items-center" id="wsp" type="button"><i class="bi bi-whatsapp"></i><span class="visually-hidden">Wsp</span></button>
-    	  	<button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)"><svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg><span class="visually-hidden" id="bd-theme-text">Alternar Tema</span></button>
+    	  	<button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)"><svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg><span class="visually-hidden" id="bd-theme-text">Toggle theme</span></button>
     		<ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
     			<li>
     				<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
     					<svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-    						Claro
+    						Light
     					<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
     				</button>
     			</li>
     			<li>
     				<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
     					<svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-    						Escuro
+    						Dark
     					<svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
     				</button>
     			</li>
@@ -108,26 +107,26 @@
 		<header data-bs-theme="dark">
   			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     			<div class="container-fluid">
-      				<a class="navbar-brand" href="#"><div><img src="./imagen/logo.jpg" alt="logo" class="logo"> MopetsCuritiba</div></a>
+      				<a class="navbar-brand" href="#"><div><img src="../../imagen/logo.jpg" alt="logo" class="logo"> MopetsCuritiba</div></a>
       				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         				<span class="navbar-toggler-icon"></span>
       				</button>
       				<div class="collapse navbar-collapse" id="navbarCollapse">
         				<ul class="navbar-nav me-auto mb-2 mb-md-0">
         					<li class="nav-item">
-        						<a class="nav-link active" aria-current="page" href="./vistas/galeria.html">Galeria</a>
+        						<a class="nav-link active" aria-current="page" href="./galeria.html">Gallery</a>
         					</li>
         					<li class="nav-item">
         						<a class="nav-link" href="#">Instagram</a>
         					</li>
         					<li class="nav-item">
-        						<a class="nav-link disabled" aria-disabled="true">Não clique aqui</a>
+        						<a class="nav-link disabled" aria-disabled="true">Do not click here</a>
         					</li>
         				</ul>
 						<div class="banderas">
-							<!--<button type="button" class="por" title="Portugués" id="por"></button>-->
+							<button type="button" class="por" title="Portugués" id="por"></button>
 							<button type="button" class="esp" title="Español" id="esp"></button>
-							<button type="button" class="eng" title="Inglés" id="eng"></button>
+							<!--<button type="button" class="eng" title="Inglés" id="eng"></button>-->
 						</div>
         				<!--<form class="d-flex" role="search">
         					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -147,35 +146,35 @@
   	  			</div>
   	  			<div class="carousel-inner">
   	    			<div class="carousel-item active">
-						<img src="./imagen/productos/comida_5.jpg" alt="carrusel_1" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+						<img src="../../imagen/productos/comida_5.jpg" alt="carrusel_1" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
   	    		  		<!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>-->
   	    		  		<div class="container">
   	    		    		<div class="carousel-caption text-start">
-  	    		      			<h1>Exemplo de título.</h1>
-  	    		      			<p class="opacity-75">Algum conteúdo representativo de espaço reservado para o primeiro slide do carrossel.</p>
-  	    		      			<p><a class="btn btn-lg btn-primary" href="./vistas/seccion_bebederos.html">Ver este producto</a></p>
+  	    		      			<h1>Example headline.</h1>
+  	    		      			<p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+  	    		      			<p><a class="btn btn-lg btn-primary" href="./seccion_bebederos.html">Watch this product</a></p>
   	    		    		</div>
   	    		  		</div>
   	    			</div>
   	    			<div class="carousel-item">
-						<img src="./imagen/productos/comida_3.jpg" alt="carrusel_2" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+						<img src="../../imagen/productos/comida_3.jpg" alt="carrusel_2" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
   	    				<!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>-->
   	    				<div class="container">
   	    					<div class="carousel-caption">
   	    						<h1>Another example headline.</h1>
   	    						<p>¿Necesitas un producto exclusivo y personalizado para tu mascota? No pierdas más tiempo, solicítalo ya.</p>
-  	    						<p><a class="btn btn-lg btn-primary" href="./vistas/plataforma.html">Solicita ahora</a></p>
+  	    						<p><a class="btn btn-lg btn-primary" href="./plataforma.html">Request now</a></p>
   	    					</div>
   	    				</div>
   	    			</div>
   	    			<div class="carousel-item">
-						<img src="./imagen/productos/comida_4.jpg" alt="carrusel_3" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+						<img src="../../imagen/productos/comida_4.jpg" alt="carrusel_3" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
   	    		  		<!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>-->
   	    		  		<div class="container">
   	    		    		<div class="carousel-caption text-end">
   	    		      			<h1>One more for good measure.</h1>
   	    		      			<p>Some representative placeholder content for the third slide of this carousel.</p>
-  	    		      			<p><a class="btn btn-lg btn-primary" href="./vistas/galeria.html">Mira la galería</a></p>
+  	    		      			<p><a class="btn btn-lg btn-primary" href="./galeria.html">Watch the gallery</a></p>
   	    		    		</div>
   	    		  		</div>
   	    			</div>
@@ -199,24 +198,24 @@
   	  			<!-- Three columns of text below the carousel -->
   	  			<div class="row">
   	    			<div class="col-lg-4">
-						<div><img src="./imagen/chuchu.jpg" alt="carrusel_1" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></div>
+						<div><img src="../../imagen/chuchu.jpg" alt="carrusel_1" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></div>
   	    	  			<!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>-->
   	    	  			<h2 class="fw-normal">Chuchú</h2>
-  	    	  			<p>Una página bien fina en la que vendo cositas.</p>
+  	    	  			<p>A funny website for pets.</p>
   	    	  			<!--<p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>-->
   	    			</div><!-- /.col-lg-4 -->
   	    			<div class="col-lg-4">
-						<div><img src="./imagen/monga.jpg" alt="carrusel_1" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></div>
+						<div><img src="../../imagen/monga.jpg" alt="carrusel_1" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></div>
   	    				<!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>-->
   	    				<h2 class="fw-normal">Freddy</h2>
-  	    				<p>Una vez me hizo una cesta con periódico y duermo bien fino ahí.</p>
+  	    				<p>One time he built a bed for a dog, and now I sleep there.</p>
   	    				<!--<p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>-->
   	    			</div><!-- /.col-lg-4 -->
   	    			<div class="col-lg-4">
-						<div><img src="./imagen/pic.png" alt="carrusel_1" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></div>
+						<div><img src="../../imagen/pic.png" alt="carrusel_1" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"></div>
   	    				<!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>-->
   	    				<h2 class="fw-normal">El firix</h2>
-  	    				<p>Vamos a ver cómo queda esta página.</p>
+  	    				<p>Let's see how is it going.</p>
   	    				<!--<p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>-->
   	    			</div><!-- /.col-lg-4 -->
   	  			</div><!-- /.row -->
@@ -229,7 +228,7 @@
 						<p class="lead">Toca la imagen para que veas más modelos.</p>
   	  			  	</div>
   	  			  	<div class="col-md-5">
-						<a href="./vistas/seccion_escaleras.html"><img id="brincar_1" src="./imagen/productos/escalera_1.jpg" alt="prod_1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
+						<a href="./seccion_escaleras.html"><img id="brincar_1" src="../../imagen/productos/escalera_1.jpg" alt="prod_1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
   	  					<!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>-->
 					</div>
   	  			</div>
@@ -240,7 +239,7 @@
   	  					<p class="lead">Las iguanas deben estar en un ambiente adecuado, preferiblemente en los árboles, no las encierres. Gil.</p>
   	  				</div>
   	  				<div class="col-md-5 order-md-1">
-						<a href="./vistas/seccion_casitas.html"><img id="brincar_2" src="./imagen/productos/casita_1.jpg" alt="prod_1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
+						<a href="./seccion_casitas.html"><img id="brincar_2" src="../../imagen/productos/casita_1.jpg" alt="prod_1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
   	  					<!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>-->
   	  				</div>
   	  			</div>
@@ -251,7 +250,7 @@
   	  					<p class="lead">Y sí, cuando tengas esto en tu casa, querrás, sin duda alguna, dos más.</p>
   	  				</div>
   	  				<div class="col-md-5">
-						<a href="./vistas/sección_rascadores.html"><img id="brincar_3" src="./imagen/productos/wadafac_1.jpg" alt="prod_1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
+						<a href="./sección_rascadores.html"><img id="brincar_3" src="../../imagen/productos/wadafac_1.jpg" alt="prod_1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></a>
   	  					<!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>-->
   	  				</div>
   	  			</div>
@@ -266,18 +265,18 @@
 		</main>
 		<script src="https://unpkg.com/scrollreveal"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-		<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="./funciones/funciones.js"></script>
+		<script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="../../funciones/funciones.js"></script>
 		<script>
 			const botonEsp = document.getElementById('esp');
-			const botonEng = document.getElementById('eng');
+			const botonPor = document.getElementById('por');
 
 			botonEsp.addEventListener('click', () => {
-			    window.location.href = './vistas/es/index_es.html';
+			    window.location.href = '../es/index_es.html';
 			});
 			
-			botonEng.addEventListener('click', () => {
-			    window.location.href = './vistas/en/index_en.html';
+			botonPor.addEventListener('click', () => {
+			    window.location.href = '../../index.html';
 			});
 		</script>
     </body>
